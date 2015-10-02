@@ -1,0 +1,17 @@
+body {
+    background-color: #ff9900;
+    color: #ffffff;
+    font-family: "Helvetica Neue", Helvetica, Arial;
+    font-size: 64px
+}
+
+.tweet {
+    width: 80%;
+    height: 60%;
+    margin: auto auto;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}

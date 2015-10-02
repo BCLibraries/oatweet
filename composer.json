@@ -1,0 +1,16 @@
+{
+  "name": "bclib/oatweetwach",
+  "description": "Watch OA Tweets",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Ben Florin",
+      "email": "benjamin.florin@bc.edu"
+    }
+  ],
+  "require": {
+    "slim/slim": "2.*",
+    "j7mbo/twitter-api-php": "dev-master"
+  }
+}
