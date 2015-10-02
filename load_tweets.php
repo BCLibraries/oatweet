@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/vendor/autoload.php';
 
-header("refresh:120;url=http://libstaff.bc.edu/oatweet");
+header("refresh:120;url=http://libdev.bc.edu/oatweet/index.php");
 
 $settings = require_once(__DIR__ . '/.settings.php');
 
