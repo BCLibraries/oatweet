@@ -14,7 +14,7 @@ class TweetReader
 
     public function load($settings)
     {
-        $filename = __DIR__ . '/tweets.json';
+        $filename = __DIR__ . '/storage/tweets.json';
 
         // Use a cache file if it exists and is recent.
         if (file_exists($filename) && $this->fileUpdatedSince($filename, 2)) {
