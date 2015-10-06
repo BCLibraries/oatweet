@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-    <!--<link rel="stylesheet" href="style.css">-->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -23,18 +23,19 @@
 </div>
 -->
 
-<!-- Three. -->
-<?php foreach ($tweets->readTweets(3) as $tweet) { ?>
+<!-- Two. -->
+<?php foreach ($tweets->readTweets(2) as $tweet) { ?>
     <div class="tweet">
-        <div class="text">
-            <?= $tweet->text; ?>
-        </div>
-
+        
         <div class="by">
             <?= $tweet->by; ?>
         </div>
 
-        <?php if (isset($tweet->img)) { ?>
+        <div class="text">
+            <?= $tweet->text; ?>
+        </div>
+
+       <?php if (isset($tweet->img)) { ?>
             <img src="<?= $tweet->img; ?>">
         <?php } ?>
     </div>

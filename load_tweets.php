@@ -1,8 +1,6 @@
 <?php
 require_once __DIR__ . '/vendor/autoload.php';
 
-header("refresh:120;url=.");
-
 $settings = require_once(__DIR__ . '/.settings.php');
 
 $tweets = new TweetReader();
