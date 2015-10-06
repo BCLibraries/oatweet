@@ -50,7 +50,7 @@ class TweetReader
     private function downloadFreshTweets($settings)
     {
         $url = 'https://api.twitter.com/1.1/search/tweets.json';
-        $getfield = '?count=100&q=%23openaccess';
+        $getfield = '?count=140&q=%23openaccess';
         $requestMethod = 'GET';
 
         $twitter = new TwitterAPIExchange($settings);

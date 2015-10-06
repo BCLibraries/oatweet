@@ -1,12 +1,13 @@
 <?php require_once __DIR__ . '/../load_tweets.php'; ?>
 <html>
 <head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-<!-- Just one. -->
-<div class="tweet"><?= $tweets->readTweets(1); ?></div>
+<!-- Just one. 
+<div class="tweet"><?= $tweets->readTweets(1); ?></div>-->
 
 <!-- Three. -->
 <?php foreach ($tweets->readTweets(3) as $tweet) { ?>
@@ -14,10 +15,10 @@
 <?php } ?>
 
 
-<!-- All 100 of them. -->
+<!-- All 100 of them. 
 <?php foreach ($tweets->readTweets() as $tweet) { ?>
     <div class="tweet"><?= $tweet; ?></div>
-<?php } ?>
+<?php } ?>-->
 
 </body>
 </html>
