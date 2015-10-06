@@ -1,11 +1,19 @@
 <?php require_once __DIR__ . '/../load_tweets.php'; ?>
 <html>
 <head>
+
+    <meta http-equiv="refresh" content="120">
+
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="http://libdev.bc.edu/oatweet/style.css">
+    <link rel="stylesheet" href=" http://library.bc.edu/theme/css/icomoon.css">
+
 </head>
 
 <body>
+
+<div class="background">
+    <h1>Tweet about #OpenAccess</h1>
 
 <!-- Just one -->
 <!--
@@ -26,7 +34,7 @@
 <!-- Two. -->
 <?php foreach ($tweets->readTweets(2) as $tweet) { ?>
     <div class="tweet">
-        
+
         <div class="by">
             <?= $tweet->by; ?>
         </div>
