@@ -18,7 +18,7 @@ class TweetReader
 
         // Use a cache file if it exists and is recent.
         if (file_exists($filename) && $this->fileUpdatedSince($filename, 2)) {
-            $tweets_json= file_get_contents($filename);
+            $tweets_json = file_get_contents($filename);
         } else {
             $tweets_json = $this->downloadFreshTweets($settings);
             file_put_contents($filename, $tweets_json);
@@ -30,7 +30,15 @@ class TweetReader
         $this->tweets = array();
 
         foreach ($tweets_data->statuses as $status) {
-            $this->tweets[] = $status->text;
+            if ($status->lang == "en") {
+                $tweet = new stdClass();
+                $tweet->text = $status->text;
+                $tweet->by = $status->user->screen_name;
+                if (isset($status->entities->media[0]->media_url)) {
+                    $tweet->img = $status->entities->media[0]->media_url;
+                }
+                $this->tweets[] = $tweet;
+            }
         }
     }
 
@@ -50,7 +58,7 @@ class TweetReader
     private function downloadFreshTweets($settings)
     {
         $url = 'https://api.twitter.com/1.1/search/tweets.json';
-        $getfield = '?count=100&q=%23openaccess';
+        $getfield = '?count=100&q=%23openaccess%20-RT';
         $requestMethod = 'GET';
 
         $twitter = new TwitterAPIExchange($settings);
