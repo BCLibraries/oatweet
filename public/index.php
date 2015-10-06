@@ -1,12 +1,11 @@
 <?php require_once __DIR__ . '/../load_tweets.php'; ?>
 <html>
 <head>
-
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
     <meta http-equiv="refresh" content="120">
 
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <link rel="stylesheet" href="http://libdev.bc.edu/oatweet/style.css">
-    <link rel="stylesheet" href=" http://library.bc.edu/theme/css/icomoon.css">
 
 </head>
 
@@ -36,7 +35,7 @@
     <div class="tweet">
 
         <div class="by">
-            <?= $tweet->by; ?>
+            @<?= $tweet->by; ?>
         </div>
 
         <div class="text">
