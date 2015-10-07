@@ -15,7 +15,7 @@ class TweetReader
         $filename = __DIR__ . '/storage/tweets.json';
 
         // Use a cache file if it exists and is recent.
-        if (file_exists($filename) && $this->fileUpdatedSince($filename, 2)) {
+        if (file_exists($filename) && ! $this->fileUpdatedSince($filename, 2)) {
             $tweets_json = file_get_contents($filename);
         } else {
             $tweets_json = $this->downloadFreshTweets($settings);
