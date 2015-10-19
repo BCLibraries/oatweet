@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content id="F6A0C830-8E5E-4052-B1DD-F0B200DC3B39" version="3.000" packaged="false" datalinkTemplate="false" playerType="iPLAYER">
+	<PlayerType>iPLAYER</PlayerType>
+	<FileID>208C75A6-D771-41D9-890D-5BA2A0F6657E</FileID>
+	<Name type="String">
+		<KeyFrame time="0"><![CDATA[oatweet]]></KeyFrame></Name>
+	<DisplayWidth type="Number">
+		<KeyFrame time="0">1920</KeyFrame></DisplayWidth>
+	<DisplayHeight type="Number">
+		<KeyFrame time="0">1080</KeyFrame></DisplayHeight>
+	<DisplayPolicy type="List">
+		<KeyFrame time="0">2</KeyFrame></DisplayPolicy>
+	<BGMusicFilePath type="File">
+		<KeyFrame time="0"><![CDATA[]]></KeyFrame></BGMusicFilePath>
+	<EventItems>
+	</EventItems>
+	<Page index="0" type="Global">
+		<Name type="String">
+			<KeyFrame time="0"><![CDATA[Page for Global Elements]]></KeyFrame></Name>
+		<BGColor type="Color">
+			<KeyFrame time="0">181;181;181</KeyFrame></BGColor>
+		<MotionPathPoints type="String">
+			<KeyFrame time="0"><![CDATA[]]></KeyFrame></MotionPathPoints>
+		<BGImageFilePath type="File">
+			<KeyFrame time="0"><![CDATA[]]></KeyFrame></BGImageFilePath>
+		<BGRatio type="List">
+			<KeyFrame time="0">1</KeyFrame></BGRatio>
+		<OrginalWidth type="Number">
+			<KeyFrame time="0">0</KeyFrame></OrginalWidth>
+		<OriginalHeight type="Number">
+			<KeyFrame time="0">0</KeyFrame></OriginalHeight>
+		<DataLinkClearAtFirstItem type="Boolean">
+			<KeyFrame time="0">False</KeyFrame></DataLinkClearAtFirstItem>
+		<DataLinkPageSync type="List">
+			<KeyFrame time="0">0</KeyFrame></DataLinkPageSync>
+		<IsVisible type="Boolean">
+			<KeyFrame time="0">True</KeyFrame></IsVisible>
+		<DurationPolicy type="List">
+			<KeyFrame time="0">0</KeyFrame></DurationPolicy>
+		<Duration type="Time">
+			<KeyFrame time="0">00:01:00.00</KeyFrame></Duration>
+		<InterpolationType type="List">
+			<KeyFrame time="0">1</KeyFrame></InterpolationType>
+		<EventEnable type="Boolean">
+			<KeyFrame time="0">True</KeyFrame></EventEnable>
+		<EffectInName type="List">
+			<KeyFrame time="0"></KeyFrame></EffectInName>
+		<EffectInDuration type="Time">
+			<KeyFrame time="0">00:00:00.00</KeyFrame></EffectInDuration>
+		<EffectInDirection type="List">
+			<KeyFrame time="0">0</KeyFrame></EffectInDirection>
+		<EffectInRepeatPolicy type="List">
+			<KeyFrame time="0">0</KeyFrame></EffectInRepeatPolicy>
+		<EffectInRepeatPeriod type="Time">
+			<KeyFrame time="0">00:00:00.00</KeyFrame></EffectInRepeatPeriod>
+		<EffectInRepeatCount type="Number">
+			<KeyFrame time="0">1</KeyFrame></EffectInRepeatCount>
+		<EventItems>
+		</EventItems>
+	</Page>
+	<Page index="1" type="Local">
+		<Name type="String">
+			<KeyFrame time="0"><![CDATA[Page1]]></KeyFrame></Name>
+		<BGColor type="Color">
+			<KeyFrame time="0">255;255;255</KeyFrame></BGColor>
+		<MotionPathPoints type="String">
+			<KeyFrame time="0"><![CDATA[]]></KeyFrame></MotionPathPoints>
+		<BGImageFilePath type="File">
+			<KeyFrame time="0"><![CDATA[]]></KeyFrame></BGImageFilePath>
+		<BGRatio type="List">
+			<KeyFrame time="0">1</KeyFrame></BGRatio>
+		<OrginalWidth type="Number">
+			<KeyFrame time="0">0</KeyFrame></OrginalWidth>
+		<OriginalHeight type="Number">
+			<KeyFrame time="0">0</KeyFrame></OriginalHeight>
+		<DataLinkClearAtFirstItem type="Boolean">
+			<KeyFrame time="0">False</KeyFrame></DataLinkClearAtFirstItem>
+		<DataLinkPageSync type="List">
+			<KeyFrame time="0">0</KeyFrame></DataLinkPageSync>
+		<IsVisible type="Boolean">
+			<KeyFrame time="0">True</KeyFrame></IsVisible>
+		<DurationPolicy type="List">
+			<KeyFrame time="0">0</KeyFrame></DurationPolicy>
+		<Duration type="Time">
+			<KeyFrame time="0">00:01:00.00</KeyFrame></Duration>
+		<InterpolationType type="List">
+			<KeyFrame time="0">1</KeyFrame></InterpolationType>
+		<EventEnable type="Boolean">
+			<KeyFrame time="0">True</KeyFrame></EventEnable>
+		<EffectInName type="List">
+			<KeyFrame time="0"></KeyFrame></EffectInName>
+		<EffectInDuration type="Time">
+			<KeyFrame time="0">00:00:00.00</KeyFrame></EffectInDuration>
+		<EffectInDirection type="List">
+			<KeyFrame time="0">0</KeyFrame></EffectInDirection>
+		<EffectInRepeatPolicy type="List">
+			<KeyFrame time="0">0</KeyFrame></EffectInRepeatPolicy>
+		<EffectInRepeatPeriod type="Time">
+			<KeyFrame time="0">00:00:00.00</KeyFrame></EffectInRepeatPeriod>
+		<EffectInRepeatCount type="Number">
+			<KeyFrame time="0">1</KeyFrame></EffectInRepeatCount>
+		<EventItems>
+		</EventItems>
+		<Element type="Web" typeid="909736CD-5688-49D5-89B0-1DEB6E65962D">
+			<Name type="String">
+				<KeyFrame time="0"><![CDATA[Internet Explorer]]></KeyFrame></Name>
+			<WebURL type="String">
+				<KeyFrame time="0"><![CDATA[http://libdev.bc.edu/oatweet/index.php]]></KeyFrame></WebURL>
+			<MotionPathPoints type="String">
+				<KeyFrame time="0"><![CDATA[]]></KeyFrame></MotionPathPoints>
+			<WebAuthorizationID type="String">
+				<KeyFrame time="0"><![CDATA[]]></KeyFrame></WebAuthorizationID>
+			<Layer type="Number">
+				<KeyFrame time="0">0</KeyFrame></Layer>
+			<PinnedPointNameList type="MultilineString">
+				<KeyFrame time="0"><![CDATA[]]></KeyFrame></PinnedPointNameList>
+			<GlobalElement type="Boolean">
+				<KeyFrame time="0">False</KeyFrame></GlobalElement>
+			<PositionX type="RealNumber">
+				<KeyFrame time="0">0</KeyFrame></PositionX>
+			<PositionY type="RealNumber">
+				<KeyFrame time="0">0</KeyFrame></PositionY>
+			<Width type="RealNumber">
+				<KeyFrame time="0">1920</KeyFrame></Width>
+			<Height type="RealNumber">
+				<KeyFrame time="0">1080</KeyFrame></Height>
+			<FilePath type="File">
+				<KeyFrame time="0"><![CDATA[]]></KeyFrame></FilePath>
+			<WebOutputMode type="List">
+				<KeyFrame time="0">0</KeyFrame></WebOutputMode>
+			<WebRefresh type="Number">
+				<KeyFrame time="0">1</KeyFrame></WebRefresh>
+			<WebRefreshNew type="Time">
+				<KeyFrame time="0">00:01:00.00</KeyFrame></WebRefreshNew>
+			<WebInputEnable type="Boolean">
+				<KeyFrame time="0">False</KeyFrame></WebInputEnable>
+			<WebScrollShow type="Boolean">
+				<KeyFrame time="0">False</KeyFrame></WebScrollShow>
+			<WebVScrollPos type="Number">
+				<KeyFrame time="0">0</KeyFrame></WebVScrollPos>
+			<WebHScrollPos type="Number">
+				<KeyFrame time="0">0</KeyFrame></WebHScrollPos>
+			<WebAuthorizationPassWd type="String">
+				<KeyFrame time="0"><![CDATA[]]></KeyFrame></WebAuthorizationPassWd>
+			<IsVisible type="Boolean">
+				<KeyFrame time="0">True</KeyFrame></IsVisible>
+			<GlobalDisplayPriority type="List">
+				<KeyFrame time="0">0</KeyFrame></GlobalDisplayPriority>
+			<WindowMode type="Boolean">
+				<KeyFrame time="0">True</KeyFrame></WindowMode>
+			<GlobalPlayPolicy type="List">
+				<KeyFrame time="0">0</KeyFrame></GlobalPlayPolicy>
+			<DurationPolicy type="List">
+				<KeyFrame time="0">0</KeyFrame></DurationPolicy>
+			<Start type="Time">
+				<KeyFrame time="0">00:00:00.00</KeyFrame></Start>
+			<Duration type="Time">
+				<KeyFrame time="0">00:01:00.00</KeyFrame></Duration>
+			<RepeatPeriod type="Time">
+				<KeyFrame time="0">00:00:10.00</KeyFrame></RepeatPeriod>
+			<RepeatEnd type="Time">
+				<KeyFrame time="0">00:01:00.00</KeyFrame></RepeatEnd>
+			<InterpolationType type="List">
+				<KeyFrame time="0">1</KeyFrame></InterpolationType>
+			<EventEnable type="Boolean">
+				<KeyFrame time="0">True</KeyFrame></EventEnable>
+			<AuthorAreaFix type="Boolean">
+				<KeyFrame time="0">False</KeyFrame></AuthorAreaFix>
+			<DesignCanvasVisible type="Boolean">
+				<KeyFrame time="0">True</KeyFrame></DesignCanvasVisible>
+			<EventItems>
+			</EventItems>
+		</Element>
+	</Page>
+</Content>
